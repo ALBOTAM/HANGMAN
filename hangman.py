@@ -1,7 +1,7 @@
 import random
 
 def choose_word():
-    words = ["Торт", "Москва", "Кит", "Ноутбук", "Приставка","Шахматы"]
+    words = ["JAVA", "Kotlin", "Laptop", "Fronted", "Backend","Python"]
     return random.choice(words)
 
 def display(word, guessed_letters):
