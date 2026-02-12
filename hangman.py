@@ -1,7 +1,7 @@
 import random
 
 def choose_word():
-    words = ["apple", "banana", "orange", "grape", "lemon"]
+    words = ["Торт", "Москва", "Кит", "Ноутбук", "Приставка","Шахматы"]
     return random.choice(words)
 
 def display(word, guessed_letters):
@@ -16,9 +16,9 @@ def display(word, guessed_letters):
 def hangman():
     word = choose_word()
     guessed_letters = []
-    attempts = 6
+    attempts = 10
 
-    print("Добро пожаловать в игру Виселица!")
+    print("Добро пожаловать в игру Поле Чудес!")
     
     while attempts > 0:
         print("\nСлово:", display(word, guessed_letters))
